@@ -25,9 +25,13 @@
     Defaults env_keep = "EDITOR LANG LANGUAGE LC_*"
   '';
 
+  documentation.dev.enable = true;
+
   environment.systemPackages = [
     pkgs.git
     pkgs.nssmdns
+    pkgs.man-pages
+    pkgs.man-pages-posix
   ];
 
   nix.extraOptions = ''
