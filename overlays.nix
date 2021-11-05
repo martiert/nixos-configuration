@@ -4,7 +4,7 @@
   nixpkgs.overlays = [
     (import (builtins.fetchGit {
         url = "https://github.com/martiert/nix-overlay";
-	rev = "408013c379861792a1506f58781039731c0f3fca";
+	rev = "a071330e59192ce2d0551a8f4f5740e8b8da9a87";
       })
     )
   ];
