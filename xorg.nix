@@ -11,7 +11,6 @@
 
     windowManager.i3.enable = true;
 
-    videoDrivers = [ "modesetting" ];
     useGlamor = true;
   };
 
