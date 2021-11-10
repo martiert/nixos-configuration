@@ -4,8 +4,10 @@
     layout = "us";
 
     libinput.enable = true;
-    displayManager.sddm.enable = true;
-    displayManager.defaultSession = "sway";
+    displayManager = {
+      sddm.enable = true;
+      defaultSession = "sway";
+    };
 
     windowManager.i3.enable = true;
 
