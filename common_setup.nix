@@ -40,8 +40,4 @@
     keep-outputs = true
     keep-derivations = true
   '';
-
-  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-    "cnijfilter2"
-  ];
 }
