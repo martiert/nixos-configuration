@@ -32,6 +32,8 @@
     pkgs.nssmdns
     pkgs.man-pages
     pkgs.man-pages-posix
+    pkgs.openconnect_openssl
+    pkgs.openconnect-sso
   ];
 
   nix.extraOptions = ''
