@@ -7,6 +7,7 @@
       ./fonts.nix
       ./users.nix
       ./xorg.nix
+      ./printing.nix
     ];
 
   # Set your time zone.
