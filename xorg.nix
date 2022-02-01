@@ -2,6 +2,7 @@
   services.xserver = {
     enable = true;
     layout = "us";
+    xkbOptions = "caps:none,compose:lwin";
 
     libinput.enable = true;
     displayManager = {
