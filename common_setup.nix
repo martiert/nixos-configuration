@@ -37,8 +37,10 @@
     pkgs.openconnect-sso
   ];
 
+  nix.package = pkgs.nixUnstable;
   nix.extraOptions = ''
     keep-outputs = true
     keep-derivations = true
+    experimental-features = nix-command flakes
   '';
 }
